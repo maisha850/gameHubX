@@ -1,11 +1,12 @@
 import React, { use } from 'react';
-import { Link, useLocation } from 'react-router';
+import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from './Auth/AuthContext';
 import { toast } from 'react-toastify';
 
 const LogIn = () => {
-  const{logInUser,signWithGoogle}=use(AuthContext)
+  const{logInUser,signWithGoogle,setUser}=use(AuthContext)
   const location=useLocation()
+  const navigate=useNavigate()
   console.log(location)
   const handleLogIn=(e)=>{
     e.preventDefault()
@@ -15,7 +16,9 @@ const LogIn = () => {
     logInUser(email,password)
     .then((res)=>{
       console.log(res.user)
+      setUser(res.user)
       toast.success('Log In successfully')
+      navigate(location.state || '/')
     })
     .catch((err)=>{
       console.log(err.message)

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Slider from '../Components/Slider';
 import { useLoaderData } from 'react-router';
 import Games from '../Components/Games';
+import Newsletter from '../Components/Newsletter';
 
 const Home = () => {
     const data= useLoaderData()
@@ -22,7 +23,6 @@ const Home = () => {
 
     }
     
-
     
     return (
         <div>
@@ -44,6 +44,8 @@ const Home = () => {
             <div className='grid md:grid-cols-3 gap-6'>
                 {gameCard.map(game=><Games key={game.id} game={game}></Games>)}
             </div>
+
+            <Newsletter></Newsletter>
         </div>
     );
 };

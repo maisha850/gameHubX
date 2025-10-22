@@ -2,17 +2,17 @@
   {
     "id": "1",
     "title": "Player Unknown's Battle Ground: PUBG",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/6/6e/PUBG_Steam_Logo.jpg",
+    "coverPhoto": "https://wallpapers.com/images/featured/pubg-go20ghrcj4ybxhvq.jpg",
     "category": "FPS",
     "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
     "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
-    "ratings": "4.5",
+    "ratings": "4.8",
     "developer": "Krafton"
   },
   {
     "id": "2",
-    "title": "Call of Duty: Mobile",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/0/0c/Call_of_Duty_Mobile_App_Icon.jpg",
+    "title": "Call of Duty: Mobile Legends",
+    "coverPhoto": "https://www.dexerto.com/cdn-image/wp-content/uploads/2022/05/10/mobile-legends-benedetta-cover-art.jpg?width=1200&quality=60&format=auto",
     "category": "FPS",
     "downloadLink": "https://www.callofduty.com/mobile",
     "description": "Call of Duty Mobile offers high-quality graphics and intense multiplayer battles, bringing the iconic CoD experience to mobile.",
@@ -22,17 +22,17 @@
   {
     "id": "3",
     "title": "Genshin Impact",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/6/6e/Genshin_Impact_cover.jpg",
+    "coverPhoto": "https://images.immediate.co.uk/production/volatile/sites/3/2023/08/Genshin-Impact-4.0-release-date-e7598ca.jpg?quality=90&resize=980,654",
     "category": "RPG",
     "downloadLink": "https://genshin.hoyoverse.com/",
     "description": "Genshin Impact is an open-world action RPG featuring elemental magic, character switching, and an immersive story-driven experience.",
-    "ratings": "4.6",
+    "ratings": "4.5",
     "developer": "HoYoverse"
   },
   {
     "id": "4",
     "title": "Free Fire",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/5f/Garena_Free_Fire_logo.png",
+    "coverPhoto": "https://wallpapers.com/images/featured/free-fire-gi0jpopdq4b0q5aj.jpg",
     "category": "Battle Royale",
     "downloadLink": "https://ff.garena.com/",
     "description": "Free Fire is a fast-paced battle royale game optimized for mobile devices, offering 10-minute matches and quick fun gameplay.",
@@ -42,41 +42,22 @@
   {
     "id": "5",
     "title": "Minecraft",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+    "coverPhoto": "https://gaming-cdn.com/images/news/articles/7191/cover/minecraft-gets-a-new-artwork-cover66856ea7d02ad.jpg",
     "category": "Sandbox",
     "downloadLink": "https://www.minecraft.net/",
     "description": "Minecraft allows players to explore, build, and survive in a pixelated world with endless possibilities for creativity.",
-    "ratings": "4.8",
+    "ratings": "4.4",
     "developer": "Mojang Studios"
   },
+  
   {
     "id": "6",
-    "title": "Valorant",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/f/f2/Valorant_cover_art.jpg",
-    "category": "FPS",
-    "downloadLink": "https://playvalorant.com/",
-    "description": "Valorant combines tactical shooting with hero-based abilities, offering a strategic and competitive experience.",
-    "ratings": "4.4",
-    "developer": "Riot Games"
-  },
-  {
-    "id": "7",
-    "title": "Fortnite",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/0/0e/Fortnite_Save_The_World.jpg",
-    "category": "Battle Royale",
-    "downloadLink": "https://www.epicgames.com/fortnite/",
-    "description": "Fortnite features building mechanics, vibrant visuals, and cross-platform play in its dynamic battle royale gameplay.",
-    "ratings": "4.6",
-    "developer": "Epic Games"
-  },
-  {
-    "id": "8",
     "title": "Asphalt 9: Legends",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/0/04/Asphalt_9_Legends_cover_art.jpg",
+    "coverPhoto": "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-2sggqq7e434rsm9o7eh1bfoe00-20180606094605.Medi.jpeg",
     "category": "Racing",
     "downloadLink": "https://www.gameloft.com/game/asphalt-9-legends",
     "description": "Asphalt 9 offers thrilling arcade-style racing with high-speed cars, stunning graphics, and intense multiplayer competition.",
-    "ratings": "4.5",
+    "ratings": "4.6",
     "developer": "Gameloft"
   }
  

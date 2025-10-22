@@ -4,10 +4,19 @@ import './index.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Root from './Components/Root.jsx'
+import Home from './Pages/Home.jsx'
 const router= createBrowserRouter([
   {
     path:'/',
-    Component: Root
+    Component: Root,
+    children:[
+      {
+        index:true,
+        Component: Home,
+        loader:()=>fetch('/game.json')
+      }
+
+    ]
   }
 ])
 createRoot(document.getElementById('root')).render(

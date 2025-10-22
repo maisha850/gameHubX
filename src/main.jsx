@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Root from './Components/Root.jsx'
 import Home from './Pages/Home.jsx'
+import GameDetails from './Components/GameDetails.jsx'
 const router= createBrowserRouter([
   {
     path:'/',
@@ -14,6 +15,11 @@ const router= createBrowserRouter([
         index:true,
         Component: Home,
         loader:()=>fetch('/game.json')
+      },
+      {
+        path: '/gameDetails/:id',
+        loader: ()=>fetch('/game.json'),
+        Component: GameDetails
       }
 
     ]

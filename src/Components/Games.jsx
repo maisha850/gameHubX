@@ -1,12 +1,14 @@
 
 import { FaStar } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const Games = ({game}) => {
-    const{title, coverPhoto,ratings}=game
+    const{title, coverPhoto,ratings,id}=game
    
     return (
         <div>
      
+ <Link to={`/gameDetails/${id}`}>
             <div className="card bg-base-100 w-96 shadow-sm">
   <figure>
     <img className='h-56 w-[385px] '
@@ -21,6 +23,7 @@ const Games = ({game}) => {
    </div>
   </div>
 </div>
+ </Link>
         </div>
     );
 };

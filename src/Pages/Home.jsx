@@ -26,10 +26,11 @@ const Home = () => {
     
     return (
         <div>
+          <title>Home</title>
             <Slider></Slider>
 <div>
          
-<h3 className='text-4xl text-center mb-5 font-bold'>Popular games</h3>
+<h3 className='text-4xl text-center mt-10 text-[#38bdf8] font-bold'>Popular games</h3>
 <div className='flex justify-end mb-8'>
     <details className="dropdown">
   <summary className="btn m-1">{sort ? sort : 'sort-by:'}</summary>

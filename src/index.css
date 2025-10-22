@@ -4,3 +4,8 @@
 @import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
+
+a.active{
+    color: #38bdf8;
+    text-decoration: underline;
+}

@@ -6,10 +6,17 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Root from './Components/Root.jsx'
 import Home from './Pages/Home.jsx'
 import GameDetails from './Components/GameDetails.jsx'
+import LogIn from './Components/LogIn.jsx'
+import Register from './Components/Register.jsx'
+import AuthProvider from './Components/Auth/AuthProvider.jsx'
+import { ToastContainer } from 'react-toastify'
+import ErrorPage from './Pages/ErrorPage.jsx'
+import PrivateRoute from './Components/PrivateRoute.jsx'
 const router= createBrowserRouter([
   {
     path:'/',
     Component: Root,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         index:true,
@@ -19,7 +26,18 @@ const router= createBrowserRouter([
       {
         path: '/gameDetails/:id',
         loader: ()=>fetch('/game.json'),
-        Component: GameDetails
+       element:<PrivateRoute>
+        <GameDetails></GameDetails>
+       </PrivateRoute>
+      },
+      {
+        path:'/logIn',
+        Component: LogIn
+
+      },
+      {
+        path:'/register',
+        Component: Register
       }
 
     ]
@@ -27,6 +45,9 @@ const router= createBrowserRouter([
 ])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
- <RouterProvider router={router}></RouterProvider>
+<AuthProvider>
+   <RouterProvider router={router}></RouterProvider>
+   <ToastContainer></ToastContainer>
+</AuthProvider>
   </StrictMode>,
 )

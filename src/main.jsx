@@ -14,6 +14,8 @@ import ErrorPage from './Pages/ErrorPage.jsx'
 import PrivateRoute from './Components/PrivateRoute.jsx'
 import About from './Pages/About.jsx'
 import ResetPass from './Pages/ResetPass.jsx'
+import Profile from './Pages/Profile.jsx'
+import UpdProfile from './Pages/UpdProfile.jsx'
 const router= createBrowserRouter([
   {
     path:'/',
@@ -48,6 +50,14 @@ const router= createBrowserRouter([
       {
         path:'/resetPassword',
         Component: ResetPass
+      },
+      {
+        path: '/profile',
+        Component: Profile
+      },
+      {
+        path:'/updateProfile',
+        Component:UpdProfile
       }
 
     ]

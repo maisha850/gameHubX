@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React, { use,  useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from './Auth/AuthContext';
 import { toast } from 'react-toastify';
@@ -8,6 +8,9 @@ const LogIn = () => {
   const location=useLocation()
   const navigate=useNavigate()
   console.log(location)
+
+  
+  const[emailpass,setEmailpass]=useState('')
   const handleLogIn=(e)=>{
     e.preventDefault()
   
@@ -35,6 +38,7 @@ console.log(res.user)
       console.log(err.message)
     })
   }
+
     return (
          <div>
             <title>Log In</title>
@@ -45,10 +49,10 @@ console.log(res.user)
 
          <fieldset className="fieldset ">
           <label className="label text-xl text-slate-300">Email</label>
-          <input type="email" name='email' className="input text-slate-300 bg-white/20 focus:outline-none focus:ring-2 focus:ring-blue-400 w-full" placeholder="Email" />
+          <input type="email" value={emailpass} name='email' onChange={(e)=>setEmailpass(e.target.value)} className="input text-slate-300 bg-white/20 focus:outline-none focus:ring-2 focus:ring-blue-400 w-full" placeholder="Email" />
           <label className="label text-xl text-slate-300">Password</label>
           <input type="password" name='password' className="input  text-slate-300 bg-white/20 focus:outline-none focus:ring-2 focus:ring-blue-400 w-full" placeholder="Password" />
-          <div><a className="link link-hover  text-slate-300">Forgot password?</a></div>
+          <div><Link to='/resetPassword' state={{emailpass}} className="link link-hover  text-slate-300">Forgot password?</Link></div>
           <button className="w-full py-3 text-xl rounded-md text-slate-50 btn-active bg-linear-to-r from-[#38bdf8] to-blue-900 mt-4">Login</button>
                     {/* Google */}
 <button onClick={handleWithGoogle} className="btn my-2 py-3 bg-white text-black border-[#e5e5e5]">

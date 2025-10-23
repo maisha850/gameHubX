@@ -14,7 +14,7 @@ const Slider = () => {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 2000 }}
         loop={true}
         className=" md:h-143 w-full rounded-2xl overflow-hidden shadow-lg"
       >

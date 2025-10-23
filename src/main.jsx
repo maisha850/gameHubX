@@ -13,6 +13,7 @@ import { ToastContainer } from 'react-toastify'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import PrivateRoute from './Components/PrivateRoute.jsx'
 import About from './Pages/About.jsx'
+import ResetPass from './Pages/ResetPass.jsx'
 const router= createBrowserRouter([
   {
     path:'/',
@@ -43,6 +44,10 @@ const router= createBrowserRouter([
       {
         path:'/about',
         Component: About
+      },
+      {
+        path:'/resetPassword',
+        Component: ResetPass
       }
 
     ]

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='mr-26'>
             <Link to="/" className='flex items-center'>
  <a  className=" text-xl  uppercase font-bold"></a>
-        <h3 className=' font-bold uppercase text-white text-2xl'>game<span>HUB</span><span className='text-2xl text-blue-500'>X</span></h3>
+        <h3 className=' font-bold uppercase  text-2xl text-[#38bdf8]'>game<span>HUB</span><span className='text-2xl text-blue-500'>X</span></h3>
     </Link>
             <p className='text-[#A1A1AA] w-[350px] mt-3'>GameHUBX is an AI-powered Web3 platform that helps users navigate the crypto world with confidence. It combines intelligent search, real-time market tools to make crypto research and trading safer and easier.</p>
 

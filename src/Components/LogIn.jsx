@@ -4,7 +4,7 @@ import { AuthContext } from './Auth/AuthContext';
 import { toast } from 'react-toastify';
 
 const LogIn = () => {
-  const{logInUser,signWithGoogle,setUser}=use(AuthContext)
+  const{logInUser,signWithGoogle}=use(AuthContext)
   const location=useLocation()
   const navigate=useNavigate()
   console.log(location)
@@ -16,7 +16,7 @@ const LogIn = () => {
     logInUser(email,password)
     .then((res)=>{
       console.log(res.user)
-      setUser(res.user)
+   
       toast.success('Log In successfully')
       navigate(location.state || '/')
     })

@@ -4,7 +4,7 @@ import { AuthContext } from './Auth/AuthContext';
 import { toast } from 'react-toastify';
 
 const Register = () => {
-  const {createUser , setUser,  updatedUser, signWithGoogle, logOut}=use(AuthContext)
+  const {createUser , setUser,  updatedUser, signWithGoogle}=use(AuthContext)
   const navigate=useNavigate()
   const handleRegister=(e)=>{
     e.preventDefault()
@@ -24,7 +24,9 @@ const Register = () => {
     updatedUser(displayName,photoURL)
     .then(()=>{
       console.log(res.user)
+      setUser(res.user)
        toast.success('registered successfully')
+       navigate('/logIn')
     })
     .catch((err)=>{
       console.log(err.message)
@@ -36,17 +38,7 @@ const Register = () => {
       console.log(err.message)
       toast.error(err.message)
     })
-     logOut()
-      .then(()=>{
-        toast.success('Log Out successfully')
-        setUser(null)
-        navigate('/logIn')
-        
-
-      })
-      .catch((err)=>{
-        console.log(err.message)
-      })
+   
 
   }
 

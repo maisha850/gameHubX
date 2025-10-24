@@ -6,6 +6,7 @@ const About = () => {
       <motion.h1  initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }} class="bg-[#0f172a] text-gray-300 py-16 px-6 text-center">
+        <title>About</title>
   <div class="max-w-3xl mx-auto">
     <h2 class="text-4xl font-bold text-[#38bdf8] mb-6">About  <a  className=" text-[#38bdf8] text-4xl g uppercase font-bold">game<span>HUB</span><span className='text-4xl text-blue-500'>X</span></a></h2>
     <p class="text-lg leading-relaxed">

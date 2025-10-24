@@ -6,6 +6,7 @@ const FAQ = () => {
          <motion.div  initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}>
+                <title>FAQ</title>
    <div className='flex justify-center items-center'>
        <div className=" join  join-vertical bg-linear-to-r from-blue-400/20 to-blue-800/20 md:w-150 shrink-0 shadow-2xl text-slate-300">
   <div className="collapse collapse-arrow join-item border-blue-200 border">

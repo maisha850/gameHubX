@@ -51,7 +51,7 @@ const Navbar = () => {
   <div className="navbar-end mr-2">
    { user && <Link to='/profile'><img className="w-12 h-12 mr-3 rounded-full" src={user.photoURL || `https://cdn-icons-png.freepik.com/512/219/219987.png`} alt="" /></Link>}
   
-   <button className="btn  btn-active bg-linear-to-r from-[#38bdf8] to-blue-800 text-white">{user ? <button onClick={handleLogOut}>Log out</button> : <Link to='/logIn'>Log In</Link>}</button>
+   <button className="btn  btn-active  bg-linear-to-r from-[#38bdf8] to-blue-800 text-white">{user ? <button onClick={handleLogOut}>Log out</button> : <Link to='/logIn'>Log In</Link>}</button>
   </div>
 </div>
     );

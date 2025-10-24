@@ -30,10 +30,10 @@ const Home = () => {
             <Slider></Slider>
 <div>
          
-<h3 className='text-4xl text-center mt-10 text-[#38bdf8] font-bold'>Popular games</h3>
+<h3 className='text-5xl text-center mt-15 text-[#38bdf8] font-bold '>Popular games</h3>
 <div className='flex justify-end mb-8'>
     <details className="dropdown">
-  <summary className="btn my-5">{sort ? sort : 'sort-by:'}</summary>
+  <summary className="btn btn-accent my-5">{sort ? sort : 'sort-by:'}</summary>
   <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li><a onClick={()=>handleSort('High-Low')}>High-Low</a></li>
     <li><a onClick={()=>handleSort('Low-High')}>Low-High</a></li>

@@ -10,10 +10,10 @@ const GameDetails = () => {
     const {title ,coverPhoto,category,downloadLink,description,ratings,developer}=filteredGame
     
     return (
-        <div className='flex gap-6 py-5'>
+        <div className='lg:flex  gap-6 py-5'>
             <title>Game Details</title>
             <img className='w-150 h-80 rounded-2xl' src={coverPhoto} alt=""/>
-            <div className='space-y-2'>
+            <div className='space-y-2 lg:mt-0 mt-5'>
          <div>
                    <h3 className='text-3xl text-white font-bold'>{title}</h3>
                    <p className='text-blue-400 text-xl font-medium'>{developer}</p>

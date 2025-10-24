@@ -4,7 +4,7 @@
 
 The purpose of GAMEHUBX is to create a dynamic online hub for gamers where they can discover, play, and connect through the latest gaming content. GameHubX aims to provide users with game reviews, news updates, esports coverage, and community interaction in one place — helping gamers stay informed, entertained, and engaged.
 
-### Live URL : 
+### Live URL : https://melodious-douhua-f0abee.netlify.app/
 
 ## key features of GAMEHUBX
 

@@ -1,16 +1,24 @@
-# React + Vite
+# GAMEHUBX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose of GAMEHUBX
 
-Currently, two official plugins are available:
+The purpose of GAMEHUBX is to create a dynamic online hub for gamers where they can discover, play, and connect through the latest gaming content. GameHubX aims to provide users with game reviews, news updates, esports coverage, and community interaction in one place — helping gamers stay informed, entertained, and engaged.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Live URL : 
 
-## React Compiler
+## key features of GAMEHUBX
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Game Library & Database:** GAMEHUBX provides latest collections with details information, reviews and ratings.
+**Latest Gaming News & Updates:** IT stay ahead with daily gaming news, industry updates, and announcements about upcoming releases and events.
+**Game Reviews & Ratings:** It provides honest player and critic reviews to help you choose the best games to play or buy.
+**UI:** It provides a strong UI which is user friendly and organized properly and easy to use the tools.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+1.React-Router
+2.React-icons
+3.Tailwind
+4.Daisy UI
+5.Firebase 
+6.React-toastify
+7.Motion
+8.Swiper

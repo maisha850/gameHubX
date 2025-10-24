@@ -16,6 +16,7 @@ import About from './Pages/About.jsx'
 import ResetPass from './Pages/ResetPass.jsx'
 import Profile from './Pages/Profile.jsx'
 import UpdProfile from './Pages/UpdProfile.jsx'
+import FAQ from './Pages/FAQ.jsx'
 const router= createBrowserRouter([
   {
     path:'/',
@@ -58,6 +59,10 @@ const router= createBrowserRouter([
       {
         path:'/updateProfile',
         Component:UpdProfile
+      },
+      {
+        path:'/faq',
+        Component:FAQ
       }
 
     ]

@@ -9,6 +9,7 @@ const Navbar = () => {
     const links=<>
     <NavLink className='mr-8 md:text-slate-300' to='/'>Home</NavLink>
     <NavLink className='mr-8 md:text-slate-300' to='/about' >About</NavLink>
+    <NavLink className='mr-8 md:text-slate-300' to='/faq' >FAQ</NavLink>
 {!user && <>
    <NavLink className='mr-8 md:text-slate-300' to='/logIn' >Log In</NavLink>
     <NavLink className='mr-8 md:text-slate-300' to='/register' >Register</NavLink>

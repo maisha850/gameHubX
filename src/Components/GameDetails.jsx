@@ -6,7 +6,7 @@ const GameDetails = () => {
     const {id}=useParams();
     const data= useLoaderData()
     const filteredGame=data.find(card=>card.id==id)
-    console.log(filteredGame)
+   
     const {title ,coverPhoto,category,downloadLink,description,ratings,developer}=filteredGame
     
     return (

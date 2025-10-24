@@ -6,7 +6,7 @@ import { Navigate, useLocation } from 'react-router';
 const PrivateRoute = ({children}) => {
     const{user, loading}=use(AuthContext)
     const location=useLocation()
-    console.log(location)
+   
     if(loading){
         return <div className='min-h-screen flex justify-center items-center'><span  className="loading loading-spinner text-info loading-xl "></span></div>
     }

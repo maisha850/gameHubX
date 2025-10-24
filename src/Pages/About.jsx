@@ -15,7 +15,7 @@ const About = () => {
       Whether you’re a casual player or a pro, GameHubX is your one-stop hub for the latest gaming news, reviews, and downloads.
     </p>
     <p class="text-lg leading-relaxed mt-4">
-      Our mission is to build a community where gaming is more than just fun — it’s a lifestyle.  
+      Our mission is to build a community where gaming is more than just fun — it's a lifestyle.  
       With a sleek design, fast performance, and curated collections, GameHubX makes it easy for you to find your next favorite game.  
       Dive into the world of action, adventure, strategy, and more — all in one place.
     </p>

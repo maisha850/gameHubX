@@ -7,7 +7,7 @@ const LogIn = () => {
   const{logInUser,signWithGoogle}=use(AuthContext)
   const location=useLocation()
   const navigate=useNavigate()
-  console.log(location)
+  
 
   
   const[emailpass,setEmailpass]=useState('')

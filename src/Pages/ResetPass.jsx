@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router';
 
 const ResetPass = () => {
     const location=useLocation()
-    console.log(location)
+
     const forgetEmail=location.state?.emailpass || ''
     const [email,setEmail]=useState(forgetEmail)
     const handleReset = (e) => {

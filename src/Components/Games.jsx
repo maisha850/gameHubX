@@ -9,13 +9,13 @@ const Games = ({game}) => {
         <motion.div 
      initial={{ opacity: 0, y: 50 }}
     animate={{ opacity: 1, y: 0 }}
-    whileHover={{ scale: 1.06 }}
+    whileHover={{ scale: 1.05 }}
     transition={{ duration: 0.5 }}>
      
  <Link to={`/gameDetails/${id}`}>
-            <div className="card bg-[#1e293b] w-96 shadow-xl">
+            <div className="card bg-[#1e293b]  shadow-xl">
   <figure>
-    <img className='h-56 w-[385px] '
+    <img className='h-55 w-full object-contain '
       src={coverPhoto}
       alt="Shoes" />
   </figure>

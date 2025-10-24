@@ -12,7 +12,7 @@ const ResetPass = () => {
     window.location.href = "https://mail.google.com/";
   };
     return (
-        <div className='card  p-5 bg-linear-to-r from-blue-400/20 to-blue-800/20 w-150 shrink-0 shadow-2xl mx-auto'>
+        <div className='card  p-5 bg-linear-to-r from-blue-400/20 to-blue-800/20 md:w-150 shrink-0 shadow-2xl mx-auto'>
             <title>Forget password </title>
            <form onSubmit={handleReset}>
                <fieldset className='fieldset'>

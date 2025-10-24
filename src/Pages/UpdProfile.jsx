@@ -2,19 +2,21 @@ import React, { use, useState } from 'react';
 import { MdSystemUpdateAlt } from 'react-icons/md';
 import { AuthContext } from '../Components/Auth/AuthContext';
 import { toast } from 'react-toastify';
-import { auth } from '../Firebase.init';
+
 
 const UpdProfile = () => {
-    const {user , updatedUser}=use(AuthContext)
-      const [name, setName] = useState(auth.currentUser?.displayName || "");
-  const [photo, setPhoto] = useState(auth.currentUser?.photoURL || "")
+    const {user , updatedUser, setUser}=use(AuthContext)
+      const [name, setName] = useState(user?.displayName || "");
+  const [photo, setPhoto] = useState(user?.photoURL || "")
     const handleProfile=(e)=>{
 e.preventDefault()
 
 updatedUser(name, photo)
-.then((res)=>{
+.then(()=>{
     toast.success('Profile updated successfully')
-    console.log(res.user)
+    // console.log(res.user)
+    setUser({...user,displayName:name,photoURL:photo})
+
 })
 .catch((err)=>{
     console.log(err.message)

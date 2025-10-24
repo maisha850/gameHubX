@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdError } from 'react-icons/md';
-import { PiSmileySad } from 'react-icons/pi';
+
 
 
 const ErrorPage = () => {

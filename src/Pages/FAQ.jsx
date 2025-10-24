@@ -5,11 +5,11 @@ const FAQ = () => {
     return (
          <motion.div  initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}>
+              transition={{ duration: 1 }} >
                 <title>FAQ</title>
-   <div className='flex justify-center items-center'>
-       <div className=" join  join-vertical bg-linear-to-r from-blue-400/20 to-blue-800/20 md:w-150 shrink-0 shadow-2xl text-slate-300">
-  <div className="collapse collapse-arrow join-item border-blue-200 border">
+   <div className='flex justify-center items-center '>
+       <div className=" join  join-vertical bg-linear-to-r from-blue-400/20 to-blue-800/20 md:w-3/4 w-100  shrink-0 shadow-2xl text-slate-300">
+  <div className="collapse collapse-arrow join-item border-blue-200 border ">
     <input type="radio" name="my-accordion-4" defaultChecked />
     <div className="collapse-title font-semibold">How do I create an account?</div>
     <div className="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>

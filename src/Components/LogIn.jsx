@@ -43,7 +43,7 @@ console.log(res.user)
          <div>
             <title>Log In</title>
              <h1 className="text-5xl font-bold text-center my-10 text-[#38bdf8]">Login now!</h1>
-             <div className="card bg-linear-to-r from-blue-400/20 to-blue-800/20 w-150 shrink-0 shadow-2xl mx-auto">
+             <div className="card bg-linear-to-r from-blue-400/20 to-blue-800/20 md:w-150 shrink-0 shadow-2xl mx-auto">
       <div className="card-body ">
        <form onSubmit={handleLogIn}>
 

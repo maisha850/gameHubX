@@ -1,4 +1,4 @@
-
+import { motion } from "motion/react"
 import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-router';
 
@@ -6,7 +6,11 @@ const Games = ({game}) => {
     const{title, coverPhoto,ratings,id}=game
    
     return (
-        <div>
+        <motion.div 
+     initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    whileHover={{ scale: 1.05 }}
+    transition={{ duration: 0.5 }}>
      
  <Link to={`/gameDetails/${id}`}>
             <div className="card bg-[#1e293b] w-96 shadow-xl">
@@ -24,7 +28,7 @@ const Games = ({game}) => {
   </div>
 </div>
  </Link>
-        </div>
+        </motion.div>
     );
 };
 

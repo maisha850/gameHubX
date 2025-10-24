@@ -7,11 +7,11 @@ import { toast } from "react-toastify";
 const Navbar = () => {
   const{user, logOut}=use(AuthContext)
     const links=<>
-    <NavLink className='mr-8 text-slate-300' to='/'>Home</NavLink>
-    <NavLink className='mr-8 text-slate-300' to='/about' >About</NavLink>
+    <NavLink className='mr-8 md:text-slate-300' to='/'>Home</NavLink>
+    <NavLink className='mr-8 md:text-slate-300' to='/about' >About</NavLink>
 {!user && <>
-   <NavLink className='mr-8 text-slate-300' to='/logIn' >Log In</NavLink>
-    <NavLink className='mr-8 text-slate-300' to='/register' >Register</NavLink>
+   <NavLink className='mr-8 md:text-slate-300' to='/logIn' >Log In</NavLink>
+    <NavLink className='mr-8 md:text-slate-300' to='/register' >Register</NavLink>
 </> }
 
     </>
@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content  bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
 {links}
       </ul>
     </div>

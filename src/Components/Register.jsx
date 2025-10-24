@@ -55,7 +55,7 @@ console.log(res.user)
         <div>
             <title>Register</title>
                   <h1 className="text-5xl font-bold text-center my-10 text-[#38bdf8]">Register now!</h1>
-             <div className="card bg-linear-to-r from-blue-400/20 to-blue-800/20 w-150 shrink-0 shadow-2xl mx-auto">
+             <div className="card bg-linear-to-r from-blue-400/20 to-blue-800/20 md:w-150 shrink-0 shadow-2xl mx-auto">
       <div className="card-body ">
        <form onSubmit={handleRegister}>
 
@@ -76,7 +76,7 @@ console.log(res.user)
   Login with Google
 </button>
         </fieldset>
-        <p className='text-slate-300'>Don't have Account? Please <Link className='text-blue-400 hover:underline' to='/logIn'>log in now</Link></p>
+        <p className='text-slate-300'>Already have an Account? Please <Link className='text-blue-400 hover:underline' to='/logIn'>log in now</Link></p>
        </form>
       </div>
     </div>

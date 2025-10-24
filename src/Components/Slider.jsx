@@ -16,7 +16,7 @@ const Slider = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 2000 }}
         loop={true}
-        className=" md:h-143 w-full rounded-2xl overflow-hidden shadow-lg"
+        className=" lg:h-143 w-full rounded-2xl overflow-hidden shadow-lg"
       >
         <SwiperSlide>
             <img className='' src="https://wallpapers.com/images/featured/pubg-go20ghrcj4ybxhvq.jpg" alt="" />

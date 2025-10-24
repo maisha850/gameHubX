@@ -33,7 +33,7 @@ const Home = () => {
 <h3 className='text-4xl text-center mt-10 text-[#38bdf8] font-bold'>Popular games</h3>
 <div className='flex justify-end mb-8'>
     <details className="dropdown">
-  <summary className="btn m-1">{sort ? sort : 'sort-by:'}</summary>
+  <summary className="btn my-5">{sort ? sort : 'sort-by:'}</summary>
   <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li><a onClick={()=>handleSort('High-Low')}>High-Low</a></li>
     <li><a onClick={()=>handleSort('Low-High')}>Low-High</a></li>
@@ -42,7 +42,7 @@ const Home = () => {
 </div>
 
 </div>
-            <div className='grid md:grid-cols-3 gap-6'>
+            <div className='grid  md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {gameCard.map(game=><Games key={game.id} game={game}></Games>)}
             </div>
 

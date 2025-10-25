@@ -33,6 +33,7 @@ const LogIn = () => {
     signWithGoogle()
     .then((res)=>{
 console.log(res.user)
+ navigate(location.state || '/')
     })
     .catch((err)=>{
       console.log(err.message)

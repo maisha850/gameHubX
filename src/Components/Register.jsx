@@ -6,6 +6,7 @@ import { toast } from 'react-toastify';
 const Register = () => {
   const {createUser , setUser,  updatedUser, signWithGoogle}=use(AuthContext)
   const navigate=useNavigate()
+  
   const handleRegister=(e)=>{
     e.preventDefault()
     const displayName=e.target.name.value;
@@ -47,6 +48,8 @@ const Register = () => {
     signWithGoogle()
     .then((res)=>{
 setUser(res.user)
+ 
+
     })
     .catch((err)=>{
       console.log(err.message)

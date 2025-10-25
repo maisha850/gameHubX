@@ -13,14 +13,15 @@ const AuthProvider = ({children}) => {
         return createUserWithEmailAndPassword(auth,email,password)
     }
     const updatedUser=(displayName,photoURL)=>{
-            setLoading(true)
+       
         return updateProfile(auth.currentUser, {
             displayName,photoURL
         })
 
     }
     const logInUser=(email,password)=>{
-            setLoading(true)
+        
+         
         return signInWithEmailAndPassword(auth,email,password)
 
     }
@@ -60,9 +61,9 @@ const AuthProvider = ({children}) => {
         }
     },[])
     return (
-        <AuthContext value={authInfo}>
+        <AuthContext.Provider value={authInfo}>
             {children}
-        </AuthContext>
+        </AuthContext.Provider>
     );
 };
 

@@ -17,6 +17,7 @@ import ResetPass from './Pages/ResetPass.jsx'
 import Profile from './Pages/Profile.jsx'
 import UpdProfile from './Pages/UpdProfile.jsx'
 import FAQ from './Pages/FAQ.jsx'
+
 const router= createBrowserRouter([
   {
     path:'/',
@@ -33,7 +34,8 @@ const router= createBrowserRouter([
         loader: ()=>fetch('/game.json'),
        element:<PrivateRoute>
         <GameDetails></GameDetails>
-       </PrivateRoute>
+       </PrivateRoute>,
+      
       },
       {
         path:'/logIn',

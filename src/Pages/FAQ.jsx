@@ -27,7 +27,7 @@ const FAQ = () => {
   <div className="collapse collapse-arrow join-item border-blue-300 border">
     <input type="radio" name="my-accordion-4" />
     <div className="collapse-title font-semibold">What genres of games are available?</div>
-    <div className="collapse-content text-sm"> "GameHUBX offers a variety of genres, including FPS, RPG, adventure, strategy, sports, puzzle, and more."</div>
+    <div className="collapse-content text-sm"> "GameHUBX offers  variety of genres, including FPS, RPG, adventure, strategy, sports, puzzle, and more."</div>
   </div>
   <div className="collapse collapse-arrow join-item border-blue-300 border">
     <input type="radio" name="my-accordion-4" />

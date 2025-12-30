@@ -42,6 +42,7 @@ The platform delivers daily gaming news, industry updates, and announcements abo
 ### **1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/maisha850/gameHubX
+cd gameHubX 
 npm install
 ```
 ### **2️⃣ Create environment variables**

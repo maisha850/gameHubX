@@ -8,16 +8,17 @@ The platform delivers daily gaming news, industry updates, and announcements abo
 
 ### Live URL : https://gamehubxl.netlify.app/
 
-## key features of GAMEHUBX
+## ✨ key features of GAMEHUBX
 
-**Game Library & Database:** GAMEHUBX provides latest collections with details information, reviews and ratings.
+- 🎮 Game Library & Database – Latest game collections with detailed information and genres.
 
-**Latest Gaming News & Updates:** IT stay ahead with daily gaming news, industry updates, and announcements 
-about upcoming releases and events.
+- 📰 Gaming News & Updates – Daily gaming news, industry updates, and upcoming release announcements.
 
-**Game Reviews & Ratings:** It provides honest player and critic reviews to help you choose the best games to play or buy.
+- ⭐ Game Ratings – Quick rating system to help users evaluate games at a glance.
 
-**UI:** It provides a strong UI which is user friendly and organized properly and easy to use the tools.
+- ❓ FAQ Section – Clear answers to common questions for better user support and understanding.
+
+- 🎨 User-Friendly UI – Clean, organized, and intuitive interface for smooth navigation.
 
 ## Tech Stack
 - React-Router

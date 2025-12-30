@@ -36,3 +36,26 @@ about upcoming releases and events.
 
 - Swiper
 
+## 🧑‍💻 How to Run Locally
+
+### **1️⃣ Clone the repository**
+```bash
+git clone https://github.com/maisha850/gameHubX
+npm install
+```
+### **2️⃣ Create environment variables**
+
+*Create a `.env.local` file in the root directory and add your Firebase configuration:*
+```bash
+VITE_apiKey=your_api_key  
+VITE_authDomain=your_auth_domain  
+VITE_projectId=your_project_id  
+VITE_storageBucket=your_storage_bucket  
+VITE_messagingSenderId=your_sender_id  
+VITE_appId=your_app_id
+```
+
+### **3️⃣ Start the development server**
+```bash
+npm run dev
+
